@@ -5,3 +5,6 @@ build:
 
 count:
 	poetry run 	python count.py
+
+clean:
+	rm *.png *.csv
