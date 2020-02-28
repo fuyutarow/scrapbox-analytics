@@ -1,3 +1,4 @@
-scrapbox.sairilab
-scrapbox.sairilab.tar
+*.png
+dumps/*
+!dumps/sample.json
 .ipynb_checkpoints/
