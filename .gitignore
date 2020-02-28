@@ -1,4 +1,7 @@
 *.png
+*.csv
 dumps/*
 !dumps/sample.json
+
+.vim/
 .ipynb_checkpoints/

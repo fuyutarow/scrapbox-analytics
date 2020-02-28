@@ -1,7 +1,7 @@
 build:
-	brew install pipx
+	brew install pyenv pipx
 	pipx install poetry
 	poetry install
 
 count:
-	poetry run 	python count_pages.py
+	poetry run 	python count.py

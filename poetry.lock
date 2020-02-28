@@ -208,8 +208,16 @@ version = "2.0.0"
 [package.dependencies]
 pytz = "*"
 
+[[package]]
+category = "main"
+description = "A formatter for Python code."
+name = "yapf"
+optional = false
+python-versions = "*"
+version = "0.29.0"
+
 [metadata]
-content-hash = "9f97aac7af992aaefd553b7cd2243cb65297f675b7d091b487d5e87db1bc9f51"
+content-hash = "438eb831d026efc9785b8987408215c88aec897b877a930560d1296d9b7379ed"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -410,4 +418,8 @@ snaptime = [
 tzlocal = [
     {file = "tzlocal-2.0.0-py2.py3-none-any.whl", hash = "sha256:11c9f16e0a633b4b60e1eede97d8a46340d042e67b670b290ca526576e039048"},
     {file = "tzlocal-2.0.0.tar.gz", hash = "sha256:949b9dd5ba4be17190a80c0268167d7e6c92c62b30026cf9764caf3e308e5590"},
+]
+yapf = [
+    {file = "yapf-0.29.0-py2.py3-none-any.whl", hash = "sha256:cad8a272c6001b3401de3278238fdc54997b6c2e56baa751788915f879a52fca"},
+    {file = "yapf-0.29.0.tar.gz", hash = "sha256:712e23c468506bf12cadd10169f852572ecc61b266258422d45aaf4ad7ef43de"},
 ]

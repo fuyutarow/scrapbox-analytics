@@ -30,12 +30,14 @@ if __name__ == "__main__":
     df = df.set_index("exported")
     df.index = pd.to_datetime(df.index)
     df = df.sort_index()
-    df.to_csv("ok.csv")
+    df.to_csv("data.csv")
     df.plot()
     plt.savefig("n_pages.png")
 
     df.diff().rolling(3).mean().plot()
+    plt.title("dn3_pages")
     plt.savefig("dn3_pages.png")
 
     df.diff().rolling(7).mean().plot()
-    plt.savefig("dn_pages.png")
+    plt.title("dn7_pages")
+    plt.savefig("dn7_pages.png")
